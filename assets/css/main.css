@@ -1384,6 +1384,27 @@ svg.fill {
 	margin-top: 12px;
 }
 
+/* Sits above the card-wide .project-open::after overlay so it stays clickable */
+.project-live {
+	position: relative;
+	z-index: 1;
+	align-self: flex-start;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	margin-top: 16px;
+	font-family: var(--font-mono);
+	font-size: 13px;
+	color: var(--text-2);
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.project-live:hover,
+.project-live:focus-visible {
+	color: var(--accent);
+}
+
 .project-card::after {
 	content: "View details →";
 	margin-top: 18px;
