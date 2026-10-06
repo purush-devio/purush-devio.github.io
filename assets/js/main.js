@@ -538,7 +538,7 @@ $$(".chips button[data-tech]").forEach((btn) => {
 	const history = [];
 	let hIdx = 0;
 
-	const EMAIL = "purushoth.kesav@gmail.com";
+	const EMAIL = "purushoth.devlancer@gmail.com";
 	const link = (text, href) => ({ text, href });
 	const c = (cls, text) => ({ cls, text });
 
